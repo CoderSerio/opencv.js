@@ -1,0 +1,1 @@
+-I/mnt/d/code/fe/origin_code/opencv/modules/photo/include -I/mnt/d/code/fe/origin_code/build_js/modules/photo -I/mnt/d/code/fe/origin_code/opencv/modules/core/include -I/mnt/d/code/fe/origin_code/opencv/modules/imgproc/include -isystem /mnt/d/code/fe/origin_code/build_js

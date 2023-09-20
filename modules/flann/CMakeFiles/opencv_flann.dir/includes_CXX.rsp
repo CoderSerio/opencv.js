@@ -1,0 +1,1 @@
+-I/mnt/d/code/fe/origin_code/opencv/modules/flann/include -I/mnt/d/code/fe/origin_code/build_js/modules/flann -I/mnt/d/code/fe/origin_code/opencv/modules/core/include -isystem /mnt/d/code/fe/origin_code/build_js

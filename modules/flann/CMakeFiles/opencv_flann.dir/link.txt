@@ -1,0 +1,2 @@
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emar qc ../../lib/libopencv_flann.a CMakeFiles/opencv_flann.dir/src/flann.cpp.o CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emranlib ../../lib/libopencv_flann.a

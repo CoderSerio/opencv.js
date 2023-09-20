@@ -1,0 +1,2 @@
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emar qc ../lib/libquirc.a CMakeFiles/quirc.dir/src/decode.c.o CMakeFiles/quirc.dir/src/quirc.c.o CMakeFiles/quirc.dir/src/version_db.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emranlib ../lib/libquirc.a

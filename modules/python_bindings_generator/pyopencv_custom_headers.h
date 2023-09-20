@@ -1,0 +1,10 @@
+//user-defined headers
+#include "/mnt/d/code/fe/origin_code/opencv/modules/core/misc/python/pyopencv_async.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/core/misc/python/pyopencv_core.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "/mnt/d/code/fe/origin_code/opencv/modules/video/misc/python/pyopencv_video.hpp"

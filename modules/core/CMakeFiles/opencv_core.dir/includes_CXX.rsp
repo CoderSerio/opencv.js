@@ -1,0 +1,1 @@
+-I/mnt/d/code/fe/origin_code/opencv/modules/core/include -I/mnt/d/code/fe/origin_code/build_js/modules/core -I/mnt/d/code/fe/origin_code/opencv/3rdparty/zlib -I/mnt/d/code/fe/origin_code/build_js/3rdparty/zlib -isystem /mnt/d/code/fe/origin_code/build_js

@@ -1,0 +1,497 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.15.90.1-microsoft-standard-WSL2 - x86_64
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6ae1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6ae1.dir/build.make CMakeFiles/cmTC_e6ae1.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6ae1.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_e6ae1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e6ae1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e6ae1.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_e6ae1.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ae1.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_e6ae1.dir/objects1.rsp -o cmTC_e6ae1.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a690/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a690.dir/build.make CMakeFiles/cmTC_5a690.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a690.dir/CheckSymbolExists.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_5a690.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5a690.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5a690.dir/CheckSymbolExists.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_5a690.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a690.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_5a690.dir/objects1.rsp -o cmTC_5a690.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+File /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0dc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0dc3.dir/build.make CMakeFiles/cmTC_f0dc3.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0dc3.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_f0dc3.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f0dc3.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f0dc3.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_f0dc3.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0dc3.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_f0dc3.dir/objects1.rsp -o cmTC_f0dc3.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75273/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75273.dir/build.make CMakeFiles/cmTC_75273.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75273.dir/CheckSymbolExists.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_75273.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_75273.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_75273.dir/CheckSymbolExists.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_75273.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75273.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_75273.dir/objects1.rsp -o cmTC_75273.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+File /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82f3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82f3a.dir/build.make CMakeFiles/cmTC_82f3a.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82f3a.dir/CheckFunctionExists.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_82f3a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_82f3a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_82f3a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_82f3a.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82f3a.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_82f3a.dir/objects1.rsp -o cmTC_82f3a.js 
+wasm-ld: warning: function signature mismatch: fseeko
+>>> defined as () -> i32 in CMakeFiles/cmTC_82f3a.dir/CheckFunctionExists.c.o
+>>> defined as (i32, i64, i32) -> i32 in /mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a(fseek.o)
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27961/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27961.dir/build.make CMakeFiles/cmTC_27961.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27961.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_27961.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_27961.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_27961.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_27961.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27961.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_27961.dir/objects1.rsp -o cmTC_27961.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8eee6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8eee6.dir/build.make CMakeFiles/cmTC_8eee6.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8eee6.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_8eee6.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8eee6.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8eee6.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_8eee6.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eee6.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_8eee6.dir/objects1.rsp -o cmTC_8eee6.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02cb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02cb9.dir/build.make CMakeFiles/cmTC_02cb9.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02cb9.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_02cb9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_02cb9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_02cb9.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_02cb9.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02cb9.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_02cb9.dir/objects1.rsp -o cmTC_02cb9.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb5ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb5ff.dir/build.make CMakeFiles/cmTC_bb5ff.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb5ff.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_bb5ff.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bb5ff.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bb5ff.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_bb5ff.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb5ff.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_bb5ff.dir/objects1.rsp -o cmTC_bb5ff.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2268/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2268.dir/build.make CMakeFiles/cmTC_c2268.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2268.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_c2268.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c2268.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c2268.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_c2268.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2268.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_c2268.dir/objects1.rsp -o cmTC_c2268.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dbfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dbfd.dir/build.make CMakeFiles/cmTC_3dbfd.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dbfd.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_3dbfd.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3dbfd.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3dbfd.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_3dbfd.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dbfd.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_3dbfd.dir/objects1.rsp -o cmTC_3dbfd.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a23b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a23b0.dir/build.make CMakeFiles/cmTC_a23b0.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a23b0.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_a23b0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a23b0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a23b0.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_a23b0.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23b0.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_a23b0.dir/objects1.rsp -o cmTC_a23b0.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3aa17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3aa17.dir/build.make CMakeFiles/cmTC_3aa17.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa17.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_3aa17.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3aa17.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3aa17.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_3aa17.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa17.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_3aa17.dir/objects1.rsp -o cmTC_3aa17.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83c06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83c06.dir/build.make CMakeFiles/cmTC_83c06.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83c06.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_83c06.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_83c06.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_83c06.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_83c06.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c06.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_83c06.dir/objects1.rsp -o cmTC_83c06.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb728/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb728.dir/build.make CMakeFiles/cmTC_fb728.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb728.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_fb728.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_fb728.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_fb728.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_fb728.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb728.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_fb728.dir/objects1.rsp -o cmTC_fb728.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90375/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90375.dir/build.make CMakeFiles/cmTC_90375.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90375.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_90375.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_90375.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_90375.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_90375.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90375.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_90375.dir/objects1.rsp -o cmTC_90375.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8425/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8425.dir/build.make CMakeFiles/cmTC_e8425.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8425.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_e8425.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e8425.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e8425.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_e8425.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8425.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_e8425.dir/objects1.rsp -o cmTC_e8425.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2743c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2743c.dir/build.make CMakeFiles/cmTC_2743c.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2743c.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_2743c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2743c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2743c.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_2743c.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2743c.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_2743c.dir/objects1.rsp -o cmTC_2743c.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_faa89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_faa89.dir/build.make CMakeFiles/cmTC_faa89.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa89.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_faa89.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_faa89.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_faa89.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_faa89.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa89.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_faa89.dir/objects1.rsp -o cmTC_faa89.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9750/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9750.dir/build.make CMakeFiles/cmTC_d9750.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9750.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_d9750.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d9750.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d9750.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_d9750.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9750.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_d9750.dir/objects1.rsp -o cmTC_d9750.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30ba0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30ba0.dir/build.make CMakeFiles/cmTC_30ba0.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30ba0.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_30ba0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_30ba0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_30ba0.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_30ba0.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ba0.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_30ba0.dir/objects1.rsp -o cmTC_30ba0.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f924.dir/build.make CMakeFiles/cmTC_6f924.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f924.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_6f924.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_6f924.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_6f924.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_6f924.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f924.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_6f924.dir/objects1.rsp -o cmTC_6f924.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ddb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ddb4.dir/build.make CMakeFiles/cmTC_7ddb4.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ddb4.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_7ddb4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7ddb4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7ddb4.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_7ddb4.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ddb4.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_7ddb4.dir/objects1.rsp -o cmTC_7ddb4.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7857/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7857.dir/build.make CMakeFiles/cmTC_b7857.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7857.dir/CheckIncludeFile.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_b7857.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b7857.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b7857.dir/CheckIncludeFile.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_b7857.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7857.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_b7857.dir/objects1.rsp -o cmTC_b7857.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61d8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61d8d.dir/build.make CMakeFiles/cmTC_61d8d.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61d8d.dir/OPJ_HAVE_MALLOC_H.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_61d8d.dir/OPJ_HAVE_MALLOC_H.c.o -MF CMakeFiles/cmTC_61d8d.dir/OPJ_HAVE_MALLOC_H.c.o.d -o CMakeFiles/cmTC_61d8d.dir/OPJ_HAVE_MALLOC_H.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_61d8d.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d8d.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_61d8d.dir/objects1.rsp -o cmTC_61d8d.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e9f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e9f7.dir/build.make CMakeFiles/cmTC_5e9f7.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e9f7.dir/CheckSymbolExists.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -D_POSIX_C_SOURCE=200112L  -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_5e9f7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5e9f7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5e9f7.dir/CheckSymbolExists.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_5e9f7.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e9f7.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_5e9f7.dir/objects1.rsp -o cmTC_5e9f7.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+File /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist passed with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_362cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_362cc.dir/build.make CMakeFiles/cmTC_362cc.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_362cc.dir/CheckSymbolExists.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc   -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_362cc.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_362cc.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_362cc.dir/CheckSymbolExists.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_362cc.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_362cc.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_362cc.dir/objects1.rsp -o cmTC_362cc.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+File /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dfb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dfb5.dir/build.make CMakeFiles/cmTC_3dfb5.dir/build
+gmake[1]: Entering directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dfb5.dir/src.c.o
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -MD -MT CMakeFiles/cmTC_3dfb5.dir/src.c.o -MF CMakeFiles/cmTC_3dfb5.dir/src.c.o.d -o CMakeFiles/cmTC_3dfb5.dir/src.c.o -c /mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp/src.c
+emcc: warning: linker setting ignored during compilation: 'SINGLE_FILE' [-Wunused-command-line-argument]
+Linking C executable cmTC_3dfb5.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dfb5.dir/link.txt --verbose=1
+/mnt/d/code/fe/origin_code/emsdk/upstream/emscripten/emcc -s SINGLE_FILE=1 -s USE_PTHREADS=0    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-const-int-float-conversion -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  @CMakeFiles/cmTC_3dfb5.dir/objects1.rsp -o cmTC_3dfb5.js 
+gmake[1]: Leaving directory '/mnt/d/code/fe/origin_code/build_js/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
